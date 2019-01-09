@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+
+<node pkg="p3dx_motionplanner" type="single_motionplanner_dyn.py" name="single_motionplanner_dyn" output="screen"/>
+<node pkg="p3dx_motionplanner" type="single_controller_dyn.py" name="single_controller_dyn" output="screen"/>
+
+</launch>
